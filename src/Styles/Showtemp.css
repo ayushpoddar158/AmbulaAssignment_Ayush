@@ -1,0 +1,12 @@
+@import 'Color.css';
+.card-body{
+    background-color: var(--color-box) ;
+    border-radius: 10px;
+}
+.card-body .card-title{
+    
+    color: var(--Color-primary);;
+}
+.card-body .card-data{
+    color: white;
+}

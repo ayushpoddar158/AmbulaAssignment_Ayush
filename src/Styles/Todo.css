@@ -1,0 +1,58 @@
+@import 'Color.css';
+.todomain{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    /* justify-content: center; */
+    align-items: center;
+}
+.todomain h2{
+    color: var(--color-primary) !important;
+    border-bottom: 2px solid rgb(66, 66, 67);
+}
+.todoinnnermain{
+    background-color: var(--color-box);
+    min-height: 45vh;
+    width: 45vw;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    /* justify-content: center; */
+    align-items: center;
+}
+.todoinnnermain form{
+    display: flex;
+}
+.todoItems{
+    margin-top: 20px;
+    /* background-color: aquamarine; */
+}
+.todoinnnermain input{
+    margin-right: 4px;
+}
+.todoaddbtn{
+    color: white !important;
+    background-color: var(--color-primary) !important;
+    border: none; 
+}
+.todoaddbtn:hover{
+    background-color: white !important;
+    color:var(--color-primary) !important;
+}
+.buttontodoitem{
+    margin: 6px;
+    color: white !important;
+    background-color:var(--color-primary) !important;
+    border: none; 
+    font-size: 14px;
+}
+.eachitemdiv{
+    margin-bottom: 10px;
+    display: flex;
+}
+.todoinnnermain h5{
+    color: white;
+}

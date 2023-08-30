@@ -1,0 +1,12 @@
+@import 'Color.css';
+.navbar{
+    position: sticky !important;
+    top: 0px;
+    background-color:var(--color-primary) !important;
+}
+.navbar-brand{
+    color: var(--color-box) !important;
+}
+.navbar .nav-link{
+    color: white  !important;
+}
